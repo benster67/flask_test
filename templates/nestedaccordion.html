@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href="accordion.css" rel="stylesheet" type = "text/css" />
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+</head>
+<body background = "space.jpeg">
+  <ul class="navigation">
+    <li><a class = "active" href="index.html">Home</a></li>
+    <li class="dropdown">
+      <a href="#" class = "dropbtn">Programming</a>
+      <div class = "dropdown-content">
+        <a href="pythonprojects.html">Python Projects</a>
+        <a href ="java.html">Java Projects</a>
+        <a href = "minecraft.html">Minecraft Mods</a>
+        <a href = "accordion.html">HTML Accordion</a>
+      </div>
+    </li>
+    <li class = "dropdown">
+      <a href="#" class = "dropbtn">Circuits and Hardware</a>
+      <div class = "dropdown-content">
+        <a href = "dtob.html">Decimal to Binary Converter</a>
+        <a href = "mech.html">Mechanical Macro Keyboard</a>
+        <a href = "ledcube.html">LED Cube</a>
+      </div>
+    </li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="blender.html">CAD and 3D Modeling</a></li>
+    <li><a href="3dprinter.html">3D Printing</a></li>
+    <li><a href="videos.html">Videos</a></li>
+    <li><a href="contact.html">Contact Me</a></li>
+    <li><a href="http://youtube.com/channel/UCYwPB7-T5Er_QnmjPBbpQRQ">My Youtube Channel</a></li>
+    <li><a href="electron.html">My Computer Setup</a></li>
+    <li><a href="about.html">About Me</a></li>
+</ul>
+
+<div class = "container">
+  <ul class = "accordion">
+    <li>
+      <button class="accordion-control">Nested Accordion</button>
+      <div class="nested-container">
+          <ul class="accordion">
+            <li>
+              <button class="accordion-control">My YouTube Channel</button>
+              <div class="accordion-panel">
+                <p>I have a YouTube channel called Ben's Tech Garage!</p>
+                <p>Thank You to all of my subscribers for your continued support!</p>
+            </div>
+            </li>
+            <li>
+              <button class="accordion-control">About The Decimal to Binary Converter</button>
+              <div class="accordion-panel">
+                <p>I made a 16 digit Decimal to Binary Converter with 33 diodes.</p>
+                <p>I takes a decimal value anywhere from 0 to 16 and converts it into a binary value.</p>
+
+              </div>
+            </li>
+            <li>
+              <button class="accordion-control">My Computer Setup</button>
+              <div class="accordion-panel">
+                <p>This video shows my EPIC 6 Monitor Setup!</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/iQzk9F5R-GQ" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </li>
+            <li>
+              <button class="accordion-control">Ben's Tech Garage Realtime Chat</button>
+              <div class="accordion-panel">
+                <p>This Realtime Chat is made possible by a database service called Firebase made by Google.</p>
+                <a href="firebase.html">Realtime Chat</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+  </li>
+  <li>
+    <button class="accordion-control">Bitcoins!</button>
+    <div class="accordion-panel">
+      <img src="http://mfi-miami.com/wp-content/uploads/2015/10/bitcoin.png">
+    </div>
+  </li>
+  <li>
+    <button class="accordion-control">Setup Update #3</button>
+    <div class="accordion-panel">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/iQzk9F5R-GQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </li>
+  <li>
+    <button class="accordion-control">Decimal to Binary Converter</button>
+    <div class="accordion-panel">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/qAenxf4SRFE" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </li>
+  <li>
+    <button class = "accordion-control">My Videos</button>
+    <div class = "accordion-panel">
+      <p>I make videos on a YouTube channel called Ben's Tech Garage.</p>
+    </div>
+  </li>
+</ul>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="accordion.js"></script>
+<p>Copyright 2016 Ben's Tech Garage</p>
+</body>
+</html>

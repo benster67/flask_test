@@ -1,0 +1,19 @@
+li {
+  list-style: none;
+  background-color: black;
+  color: red;
+  padding: 5px;
+  border: 1px solid gray;
+  text-align: center;
+}
+input {
+  margin-bottom:  20px;
+}
+
+.hot {
+  background-color: red;
+}
+
+.done {
+  background-color: black;
+}

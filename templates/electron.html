@@ -1,0 +1,481 @@
+<html>
+<head>
+  <style>
+  body *{
+    font-family: 'Oswald', sans-serif;
+  }
+  .dropdown-submenu {
+  position:relative;
+  }
+  .dropdown-submenu>.dropdown-menu {
+  top:0;
+  left:100%;
+  margin-top:-6px;
+  margin-left:-1px;
+  -webkit-border-radius:0 6px 6px 6px;
+  -moz-border-radius:0 6px 6px 6px;
+  border-radius:0 6px 6px 6px;
+  }
+  .dropdown-submenu:hover>.dropdown-menu {
+  display:block;
+  }
+  .dropdown-submenu>a:after {
+  display:block;
+  content:" ";
+  float:right;
+  width:0;
+  height:0;
+  border-color:transparent;
+  border-style:solid;
+  border-width:5px 0 5px 5px;
+  border-left-color:#595959;
+  margin-top:5px;
+  margin-right:-10px;
+  }
+  .dropdown-submenu:hover>a:after {
+  border-left-color:#595959;
+  }
+  .dropdown-submenu.pull-left {
+  float:none;
+  }
+  .dropdown-submenu.pull-left>.dropdown-menu {
+  left:-100%;
+  margin-left:10px;
+  -webkit-border-radius:6px 0 6px 6px;
+  -moz-border-radius:6px 0 6px 6px;
+  border-radius:6px 0 6px 6px;
+  }
+
+  .silde-viewer {
+  text-align: center;
+  }
+
+  .social-links {
+    background: none;
+  }
+
+  </style>
+  <title>My Computer Setup</title>
+  <link rel='shortcut icon' href='logo.ico' type='image/x-icon'/ >
+  <link href="custom_bootstrap.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href="imageslider.css" rel="stylesheet" type="text/css">
+</head>
+<body background="space.jpeg">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programmming <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown">
+              <li class="menu-item dropdown dropdown-submenu">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Java Projects</a>
+                  <ul class="dropdown-menu">
+                      <li class="menu-item">
+                          <a href="calc.html">Calculator</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="m8ball.html">Magic 8 Ball</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="connect4.html">Connect 4</a>
+                      </li>
+                    </ul>
+                </li>
+                <li class="menu-item dropdown dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Python Projects</a>
+                    <ul class="dropdown-menu">
+                        <li class="menu-item">
+                            <a href="pypro.html">Processing</a>
+                        </li>
+                        <li class="menu-item">
+                          <a href="pyturtle">Turtle()</a>
+                        </li>
+                        <li class="menu-item">
+                          <a href="pyraw">Raw Input</a>
+                        </li>
+                      </ul>
+                  </li>
+            <li><a href="minecraft.html">Minecraft Mods</a></li>
+            <li><a href="scratch.html">Scratch Projects</a></li>
+            <li><a href="accordion.html">HTML Accordion</a></li>
+            <li><a href="to-do-list.html">To Do List</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Circuits and Hardware <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Decimal to Binary Converter</a></li>
+            <li><a href="java.html">Mechanical Macro Keyboard</a></li>
+            <li><a href="ledDice.html">Electronic LED Dice</a></li>
+            <li><a href="minecraft.html">LED Cube</a></li>
+      </ul>
+
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CAD and 3D Modeling <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="rocket.html">Rocket</a></li>
+        <li><a href="stickfigure.html">Stick Figure</a></li>
+        <li><a href="dicecase.html">LED Dice Case</a></li>
+  </ul>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="3dprinter.html">3D Printing</a></li>
+    <li><a href="firebase.html">Realtime Chat</a></li>
+    <li><a href="contact.html">Contact Me</a></li>
+    <li><a href="http://youtube.com/channel/UCYwPB7-T5Er_QnmjPBbpQRQ">My YouTube Channel</a></li>
+    <li><a href="electron.html">My Computer Setup</a></li>
+    <li><a href="about.html">About Me</a></li>
+</ul>
+  </div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+<span style="color:red">
+  <h1 style="text-align: center;">
+   My Computer Setup
+   </h1>
+   <a href="http://pcpartpicker.com/p/6X2TQ7">PCPartPicker part list</a> / <a href="http://pcpartpicker.com/p/6X2TQ7/by_merchant/">Price breakdown by merchant</a>
+   <table class="pcpp-part-list">
+     <thead>
+       <tr>
+         <th>Type</th>
+         <th>Item</th>
+         <th>Price</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td class="pcpp-part-list-type">CPU</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/intel-cpu-bx80646i74790k">Intel Core i7-4790K 4.0GHz Quad-Core Processor</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/intel-cpu-bx80646i74790k">$299.99 @ Newegg</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">CPU Cooler</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/corsair-cpu-cooler-h100i">Corsair H100i 77.0 CFM Liquid CPU Cooler</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/corsair-cpu-cooler-h100i">$149.99 @ Newegg</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Thermal Compound</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/arctic-cooling-thermal-paste-actcmx420g">Arctic Cooling MX4 20g Thermal Paste</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/arctic-cooling-thermal-paste-actcmx420g">$16.15 @ SuperBiiz</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Motherboard</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/asus-motherboard-maximusviiformula">Asus MAXIMUS VII FORMULA ATX LGA1150 Motherboard</a></td>
+         <td class="pcpp-part-list-price">
+           $370.00
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Memory</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/evga-memory-16gd31600mr">EVGA Superclocked 16GB (2 x 8GB) DDR3-1600 Memory</a></td>
+         <td class="pcpp-part-list-price">
+           $100.00
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Storage</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/samsung-internal-hard-drive-mz75e250bam">Samsung 850 EVO-Series 250GB 2.5" Solid State Drive</a></td>
+         <td class="pcpp-part-list-price">
+           $100.00
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Storage</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/western-digital-internal-hard-drive-wd5000aaks">Western Digital Caviar Blue 500GB 3.5" 7200RPM Internal Hard Drive</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/western-digital-internal-hard-drive-wd5000aaks">$44.00 @ Amazon</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Storage</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/western-digital-internal-hard-drive-wd5000aaks">Western Digital Caviar Blue 500GB 3.5" 7200RPM Internal Hard Drive</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/western-digital-internal-hard-drive-wd5000aaks">$44.00 @ Amazon</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Storage</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/western-digital-internal-hard-drive-wd5000aaks">Western Digital Caviar Blue 500GB 3.5" 7200RPM Internal Hard Drive</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/western-digital-internal-hard-drive-wd5000aaks">$44.00 @ Amazon</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Video Card</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/asus-video-card-strixgtx970dc2oc4gd5">Asus GeForce GTX 970 4GB STRIX Video Card</a></td>
+         <td class="pcpp-part-list-price">
+           $360.00
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Case</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/corsair-case-cc9011016ww">Corsair Vengeance C70 (Black) ATX Mid Tower Case</a></td>
+         <td class="pcpp-part-list-price">
+           $120.00
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Power Supply</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/corsair-power-supply-cx750m">Corsair CX 750W 80+ Bronze Certified Semi-Modular ATX Power Supply</a></td>
+         <td class="pcpp-part-list-price">
+           $70.00
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Optical Drive</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/lg-optical-drive-gh24nsb0">LG GH24NSB0 DVD/CD Writer</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/lg-optical-drive-gh24nsb0">$19.75 @ OutletPC</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Operating System</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/microsoft-os-fqc08930">Microsoft Windows 10 Pro OEM (64-bit)</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/microsoft-os-fqc08930">$124.99 @ SuperBiiz</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Software</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/eset-software-eavhn111rbx2016">ESET NOD32 Antivirus 2016 (1 Year Subscription)</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/eset-software-eavhn111rbx2016">$42.98 @ Newegg</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Case Fan</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/corsair-case-fan-co9050002ww">Corsair Air Series AF120 Quiet Edition (2-Pack) 39.9 CFM 120mm  Fans</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/corsair-case-fan-co9050002ww">$24.13 @ OutletPC</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Case Fan</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/cooler-master-case-fan-r4l2r20agr2">Cooler Master SickleFlow 69.7 CFM 120mm  Fan</a></td>
+         <td class="pcpp-part-list-price">
+           $15.00
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Case Fan</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/cooler-master-case-fan-r4l2r20agr2">Cooler Master SickleFlow 69.7 CFM 120mm  Fan</a></td>
+         <td class="pcpp-part-list-price">
+           $15.00
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Monitor</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/samsung-monitor-s22d300hy">Samsung S22D300HY 60Hz 21.5" Monitor</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/samsung-monitor-s22d300hy">$132.99 @ SuperBiiz</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Monitor</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/lg-monitor-25um57p">LG 25UM57-P 60Hz 25.0" Monitor</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/lg-monitor-25um57p">$197.99 @ Adorama</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Monitor</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/lg-monitor-25um57p">LG 25UM57-P 60Hz 25.0" Monitor</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/lg-monitor-25um57p">$197.99 @ Adorama</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Monitor</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/lg-monitor-25um57p">LG 25UM57-P 60Hz 25.0" Monitor</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/lg-monitor-25um57p">$197.99 @ Adorama</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Keyboard</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/corsair-keyboard-ch9000011na">Corsair Vengeance K70 Wired Gaming Keyboard</a></td>
+         <td class="pcpp-part-list-price">
+           $140.00
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Mouse</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/corsair-mouse-ch9000070na">Corsair M65 RGB Wired Laser Mouse</a></td>
+         <td class="pcpp-part-list-price">
+           $70.00
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Mouse</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/logitech-mouse-910004337">Logitech MX Master Bluetooth Wireless Laser Mouse</a></td>
+         <td class="pcpp-part-list-price">
+           $100.00
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Other</td>
+         <td class="pcpp-part-list-item">Powerline Adapter</td>
+         <td class="pcpp-part-list-price">$70.00</td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Other</td>
+         <td class="pcpp-part-list-item">Speakers</td>
+         <td class="pcpp-part-list-price">$25.00</td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Other</td>
+         <td class="pcpp-part-list-item">Monitor Mounting Bracket</td>
+         <td class="pcpp-part-list-price">$40.00</td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Other</td>
+         <td class="pcpp-part-list-item">HDD enclosure for WD Blue</td>
+         <td class="pcpp-part-list-price">$20.00</td>
+       </tr>
+       <tr>
+         <td></td>
+         <td class="pcpp-part-list-price-note">Prices include shipping, taxes, rebates, and discounts</td>
+         <td></td>
+       </tr>
+       <tr>
+         <td></td>
+         <td class="pcpp-part-list-total">Total</td>
+         <td class="pcpp-part-list-total-price">$3151.94</td>
+       </tr>
+       <tr>
+         <td></td>
+         <td class="pcpp-part-list-price-note">Generated by <a href="http://pcpartpicker.com">PCPartPicker</a> 2015-11-29 13:21 EST-0500</td>
+         <td></td>
+       </tr>
+
+     </tbody>
+
+   </table>
+       <center>"Apollo"</center>
+   <a href="http://pcpartpicker.com/p/LW2qYJ">PCPartPicker part list</a> / <a href="http://pcpartpicker.com/p/LW2qYJ/by_merchant/">Price breakdown by merchant</a>
+   <table class="pcpp-part-list">
+     <thead>
+       <tr>
+         <th>Type</th>
+         <th>Item</th>
+         <th>Price</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td class="pcpp-part-list-type">CPU</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/intel-cpu-bx80646g3258">Intel Pentium G3258 3.2GHz Dual-Core Processor</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/intel-cpu-bx80646g3258">$68.99 @ Amazon</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Motherboard</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/gigabyte-motherboard-gah81mh">Gigabyte GA-H81M-H Micro ATX LGA1150 Motherboard</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/gigabyte-motherboard-gah81mh">$41.98 @ Newegg</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Memory</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/crucial-memory-bls2kit4g3d1609ds1s00">Crucial Ballistix Sport 8GB (2 x 4GB) DDR3-1600 Memory</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/crucial-memory-bls2kit4g3d1609ds1s00">$36.88 @ OutletPC</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Storage</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/kingston-internal-hard-drive-sv300s37a120g">Kingston SSDNow V300 Series 120GB 2.5" Solid State Drive</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/kingston-internal-hard-drive-sv300s37a120g">$42.65 @ OutletPC</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Video Card</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/msi-video-card-n610gtmd1gd3lp">MSI GeForce GT 610 1GB Video Card</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/msi-video-card-n610gtmd1gd3lp">$34.89 @ OutletPC</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Case</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/corsair-case-cc9011051ww">Corsair SPEC-02 ATX Mid Tower Case</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/corsair-case-cc9011051ww">$55.99 @ NCIX US</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Power Supply</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/evga-power-supply-100n10400l1">EVGA 400W ATX Power Supply</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/evga-power-supply-100n10400l1">$19.99 @ Amazon</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Optical Drive</td>
+         <td class="pcpp-part-list-item"><a href="http://pcpartpicker.com/part/asus-optical-drive-drw24b1stblkbas">Asus DRW-24B1ST/BLK/B/AS DVD/CD Writer</a></td>
+         <td class="pcpp-part-list-price">
+           <a href="http://pcpartpicker.com/part/asus-optical-drive-drw24b1stblkbas">$18.89 @ OutletPC</a>
+         </td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Other</td>
+         <td class="pcpp-part-list-item">Windows 10 Pro</td>
+         <td class="pcpp-part-list-price">Purchased For $20.00</td>
+       </tr>
+       <tr>
+         <td class="pcpp-part-list-type">Other</td>
+         <td class="pcpp-part-list-item">Raid Card(s)</td>
+         <td class="pcpp-part-list-price">$20.00</td>
+       </tr>
+       <tr>
+         <td></td>
+         <td class="pcpp-part-list-price-note">Prices include shipping, taxes, rebates, and discounts</td>
+         <td></td>
+       </tr>
+       <tr>
+         <td></td>
+         <td class="pcpp-part-list-subtotal">Total (before mail-in rebates)</td>
+         <td class="pcpp-part-list-subtotal-price">$375.26</td>
+       </tr>
+       <tr>
+         <td></td>
+         <td class="pcpp-part-list-subtotal">Mail-in rebates</td>
+         <td class="pcpp-part-list-subtotal-price">-$15.00</td>
+       </tr>
+       <tr>
+         <td></td>
+         <td class="pcpp-part-list-total">Total</td>
+         <td class="pcpp-part-list-total-price">$360.26</td>
+       </tr>
+       <tr>
+         <td></td>
+         <td class="pcpp-part-list-price-note">Generated by <a href="http://pcpartpicker.com">PCPartPicker</a> 2016-04-17 10:29 EDT-0400</td>
+         <td></td>
+       </tr>
+     </tbody>
+   </table>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   </body>
+   <html>
