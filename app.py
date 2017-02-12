@@ -9,9 +9,15 @@ def index():
 @app.route('/dtob')
 def dtob():
 	return render_template('dtob.html')
-@app.route('/3Dprinter')
-def ThreeDprinter():
+@app.route('/ThreeDPrinter')
+def ThreeDPrinter():
 	return render_template('3dprinter.html')
+@app.route('/about')
+def About():
+	return render_template('about.html')
+@app.route('/OrderForm')
+def OrderForm():
+	return render_template('orderform.html')
 
 if __name__ == '__main__':
 	app.debug = True
